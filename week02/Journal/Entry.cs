@@ -1,8 +1,8 @@
 public class Entry
 {
-    public string Date { get; private set; }
-    public string Prompt { get; private set; }
-    public string Text { get; private set; }
+    public string Date;
+    public string Prompt;
+    public string Text;
 
     public Entry(string date, string prompt, string text)
     {
