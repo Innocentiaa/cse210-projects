@@ -1,4 +1,4 @@
-public class Circle :Shape
+public class Circle : Shape
 {
     private double _radius;
 
@@ -7,7 +7,7 @@ public class Circle :Shape
         _radius = radius;
     }
 
-    public override double GetArea
+    public override double GetArea()
     {
         return _radius * _radius * Math.PI;
     }

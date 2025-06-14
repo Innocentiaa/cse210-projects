@@ -1,0 +1,1 @@
+SimpleGoal, Hiking, Hiking with friends, 100, False
