@@ -22,15 +22,14 @@ class Program
 
         var groupedActivities = activities.GroupBy(activity => activity.GetType().Name);
 
-        // Display activities with lines separating groups
         foreach (var group in groupedActivities)
         {
             Console.WriteLine($"{group.Key} Activities:");
             foreach (var activity in group)
             {
-                Console.WriteLine(activity.GetSummary()); // Display activity details
+                Console.WriteLine(activity.GetSummary());
             }
-            Console.WriteLine("------------"); // Separator after each group
+            Console.WriteLine("------------");
     }
 
 
